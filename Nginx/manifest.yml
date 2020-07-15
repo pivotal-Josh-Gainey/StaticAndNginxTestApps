@@ -1,0 +1,5 @@
+applications:
+  - name: nginx_test_app1
+    memory: 1G
+    random-route: true
+    buildpack: nginx_buildpack
